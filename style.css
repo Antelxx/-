@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::before,.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 50px;
+}
+
+.search input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #bfbfbf;
+    text-indent: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    margin: 0;
+    background-image: url(img/btn.png);;
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #050505;
+    line-height: 42px;
+    margin: 0 5px;
+}
+
+.nav ul li a:visited { 
+    color: #050505;
+}
+
+.nav ul li:hover {
+    border-bottom:2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.userpic {
+    float: left;
+    margin: 7px 0 7px 80px;
+}
+.username {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 42px;
+    margin:auto 10px;
+}
+
+/* 导航栏 */
+.banner {
+    height: 420px;
+    background-color: rgb(28, 3, 107);
+}
+
+.banner .center {
+    width: 1200px;
+    height: 420px;
+    margin:0 auto;
+    background-image: url('img/banner2.png');;
+}
+
+.banner .subnav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color:  rgba(0,0,0,0.3);
+    color: white;
+}
+
+.banner .subnav ul li {
+    /* margin: auto 20px;
+    padding: 25px 10px 0 10px;
+    font-size: 14px; */
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+    padding:1px 20px;
+}
+
+.banner .subnav ul li a:visited{
+    color: white;
+}
+
+.banner .subnav ul li a:hover{
+    color: #02a4ec;
+}
+
+.banner .subnav ul li div{
+    float: right;
+    margin-right: 20px;
+}
+
+/* 课程 */
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin: 60px 0;
+    background-color: white;
+}
+
+.course h2 {
+    width: 230px;
+    height: 50px;
+    background-color: #9bceea;
+    color: white;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.course .bd {
+    padding: 0;
+}
+
+.course .bd ul li {
+    padding: 14px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.course .bd ul li h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+}
+
+.course .bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.course .btn a{
+    display: block;
+    border: 2px solid rgb(72, 169, 255);
+    width: 200px;
+    height: 40px;
+    margin: 6px auto;
+    /* padding:0 12px; */
+    font-size: 18px;
+    line-height: 40px;
+    color: #00a4ff;
+    font-weight: 550;
+    text-align: center;
+}
+/* 精品推荐 - 1 */
+.goods {
+    width: 1200px;
+    height: 60px;
+    background-color: white;
+    margin:10px auto;
+    line-height: 60px;
+    box-shadow: 0 2px 3px 3px rgba(0,0,0,0.1);
+}
+
+.goods h4 {
+    float: left;
+    margin-left: 30px;
+    color: #00a4ff;
+}
+
+.goods h4 a:visited,.goods .mod a:visited{
+    color: #00a4ff;
+}
+
+.goods ul {
+    float: left;
+    padding: 0 30px;
+}
+
+.goods ul li {
+    float: left;
+}
+
+.goods ul li a {
+    padding:0px 20px;
+    color: black;
+    border-left: 1px solid #ccc;
+}
+
+.goods a:hover {
+    color: #00a4ff;
+}
+
+.goods .mod {
+    float: right;
+    padding: 0 30px;
+}
+
+/* 精品推荐 - 2 */
+/* .box {
+    height: 1000px;
+} */
+
+.hd {
+    width: 1200px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    color: #414141;
+}
+
+.hd h3 {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.hd a {
+    float: right;
+    font-size: 12px;
+    margin: 1px 40px;
+}
+
+.hd a:visited{
+    color: #646464;
+}
+
+.pics ul {
+    width: 1200px;
+    /* height: 600px; */
+    margin: 0 auto;
+}
+
+.pics ul li {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 260px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 23px;
+}
+
+.pics .last {
+    margin-right: 0;
+}
+
+.pics ul li a > img {
+    width: 100%;
+}
+
+.pics ul li em {
+    position: absolute;
+    right:-4px;
+}
+
+.pics h4 {
+    font-size: 14px;
+    font-weight: 400px;
+    padding: 20px 20px 10px 20px;
+    color: #050505;
+}
+
+.pics h4 a:visited {
+    color: black;
+}
+
+.pics h5 {
+    float: left;
+    width: 30px;
+    font-size: 12px;
+    padding: 10px 5px 10px 20px;
+    color: rgb(245, 124, 47);
+}
+
+.pics h6 {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: rgb(151,151,151);
+}
+
+/* footer */
+.footer {
+    height: 400px;
+    background-color: #fff;
+}
+
+.footer .w {
+    padding-top: 35px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 15px 0;
+}
+
+.footer .copyright {
+    float: left;
+}
+
+.footer .copyright .app {
+    display: block;
+    width: 118px;
+    height: 33px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 33px;
+    color: #00a4ff;
+    font-size: 16px;
+}
+
+.footer .links {
+    float: right;
+}
+
+.links dl {
+    float: left;
+    margin: auto 30px;
+}
+
+.links dt {
+    margin:10px auto;
+}
+
+.links dd {
+    margin: 5px auto;
+    font-size: 12px;
+    color: #666;
+}
+
+.links dd a:visited {
+    color: #666;
+}
+
+.links dd a:hover {
+    color: #00a4ff;
+}
